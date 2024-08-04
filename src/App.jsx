@@ -10,7 +10,6 @@
 
 // export default App
 
-
 import React, { useState } from "react";
 import "./App.css";
 
@@ -31,6 +30,11 @@ const App = () => {
     <div className="container">
       <div className="line"></div>
       <div className={`ball ${position}`}></div>
+      <div className="labels">
+        <span>small</span>
+        <span>medium</span>
+        <span>large</span>
+      </div>
       <button onClick={handleClick}>Change Position</button>
     </div>
   );

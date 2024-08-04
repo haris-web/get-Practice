@@ -22,7 +22,7 @@
   }
   
   .ball.start {
-    left: 0%;
+    left: 33%;
     transform: translateX(0);
   }
   
@@ -32,8 +32,19 @@
   }
   
   .ball.end {
-    left: 100%;
+    left: 77%;
     transform: translateX(-100%);
+  }
+  
+  .labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .labels span {
+    width: 33.33%;
+    text-align: center;
   }
   
   button {
